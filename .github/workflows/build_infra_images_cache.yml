@@ -32,7 +32,7 @@ on:
   create:
 jobs:
   main:
-    if: github.repository == 'apache/spark'
+    if: github.repository == 'nicovdijk/spark'
     runs-on: ubuntu-latest
     permissions:
       packages: write
